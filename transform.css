@@ -1,0 +1,67 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    object-fit: cover;
+    background-image:url("");
+}
+h1,h2{
+    text-align: center;
+    margin-top:10px;
+}
+.container{
+    width:100%;
+    display: grid;
+    
+    align-items: center;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    
+    margin-top:50px;
+}
+.container img{
+object-fit: cover;
+}
+#one:hover {
+    transform: rotate(20deg);
+  }
+   #two:hover{
+    transform: skew(20deg);
+  }
+  #three:hover{
+    transform: scale(1.5);
+  }
+  #one1:hover{
+    transform: translate(50px, 50px);
+  }
+  #two2:hover{
+    
+        transform: rotatey(120deg);
+      
+      
+  }
+  #three3:hover{
+    
+        transform: scale(0.5, 0.5);
+    
+  }
+  .four4:hover{
+    transform:matrix(1, -0.3, 0, 1, 1, 1);
+  }
+  .five5:hover{
+    transform:scaleX(1.5);
+  }
+  .last:hover{
+    
+        transform: rotatez(90deg);
+      
+      
+  }
+  .last2:hover{
+    
+        transform: scale3d(0.8, 0.8, 0.8);
+      
+  }
+  
